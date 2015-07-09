@@ -1,4 +1,4 @@
 class Neighborhood < ActiveRecord::Base
   belongs_to :city
-  has_many_listings
+  has_many :listings
 end
